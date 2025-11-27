@@ -1,0 +1,99 @@
+### 记录 1
+- **用户**: Meliodas
+- **时间**: 2025-11-26 22:12:42
+- **Intervention**: **Physical Health** 💪  
+  - Great job on super low screen time—it's easing eye strain and posture woes! 🚀 Build on those gentle campus walks with a 2-min stretch or extra laps to energize your body. 🏃‍♂️
+- **选择题反馈**:
+  - MC1 (相关性 1-5): 1
+  - MC2 (有用性 1-3): 4
+  - MC3 (信息量): 4
+  - MC4 (长度): 3
+  - MC5: 4
+  - MC6: 5
+- **原子活动**: {'har': ['Sitting', 'Walking', 'Sitting'], 'phone_usages': ['Brief High Intensity Use', 'Extended Idle Period', 'Repeated Idle Segments'], 'app_usage': ['Social Communication'], 'location': ['university campus'], 'movement': ['prolonged stationary', 'short stationary periods', 'intermittent stationary'], 'step_counts': ['Mostly Sedentary']}
+
+### 记录 2
+- **用户**: Meliodas
+- **时间**: 2025-11-26 22:12:42
+- **Intervention**: **Physical Health** 💪  
+  - Great job on super low screen time—it's easing eye strain and posture woes! 🚀 Build on those gentle campus walks with a 2-min stretch or extra laps to energize your body. 🏃‍♂️✨  
+  **Mental Health** 🧠  
+  - Loving your calm, focused vibe with minimal distractions—pure mental clarity! 💫 Keep light WeChat check-ins warming connections; pause for a deep breath to sustain that chill campus rhythm. 😊🌟
+- **选择题反馈**:
+  - MC1 (相关性 1-5): 1
+  - MC2 (有用性 1-3): 4
+  - MC3 (信息量): 4
+  - MC4 (长度): 3
+  - MC5: 4
+  - MC6: 5
+- **原子活动**: {'har': ['Sitting', 'Walking', 'Sitting'], 'phone_usages': ['Brief High Intensity Use', 'Extended Idle Period', 'Repeated Idle Segments'], 'app_usage': ['Social Communication'], 'location': ['university campus'], 'movement': ['prolonged stationary', 'short stationary periods', 'intermittent stationary'], 'step_counts': ['Mostly Sedentary']}
+
+### 记录 3
+- **用户**: yjliu
+- **时间**: 2025-11-26 20:48:32
+- **Intervention**: **Physical Health** 💪  
+  - Lots of sitting and screen time might cause stiffness—try a 2-minute stretch or quick campus walk to energize your body! 🚶‍♀️  
+  - This boosts circulation and counters low movement gently. 😊  
+  **Mental Health** 🧠  
+  - Your social chats and study focus are shining, keeping you connected and productive—awesome! 👏  
+  - Balance screen bursts with a 1-minute deep-breath break for refreshed clarity. 🌟
+- **选择题反馈**:
+  - MC1 (相关性 1-5): 1
+  - MC2 (有用性 1-3): 5
+  - MC3 (信息量): 5
+  - MC4 (长度): 4
+  - MC5: 5
+  - MC6: 5
+- **原子活动**: {'har': ['Running', 'Sitting', 'Lying', 'Walking', 'Standing'], 'phone_usages': ['Sporadic High Intensity Use', 'Intermittent Idle Periods', 'Frequent Short Bursts of Activity', 'Consistent 10-second High Intensity Segments', 'Alternating High Intensity and Idle States', 'Evening Phone Engagement', 'Brief but Intense Usage'], 'app_usage': ['Uncertain', 'Tool/Engineering/Functional APP', 'Social Communication App'], 'location': ['University Campus', 'University Campus', 'University Campus', 'University Campus', 'University Campus', 'University Campus', 'University Campus'], 'movement': ['prolonged stationary', 'intermittent stationary'], 'step_counts': ['Predominantly Stationary']}
+
+### 记录 4
+- **用户**: yjliu
+- **时间**: 2025-11-26 20:03:55
+- **Intervention**: **Physical Health** 💪  
+  - Your balanced bursts of walking, stairs, and running are spot-on for energy without burnout—amazing job! 🚀  
+  - Pair low screen time with a 1-minute neck stretch to ease any tension. 🧘‍♀️  
+  **Mental Health** 🧠  
+  - That calm focus and recharge mode at uni feels restorative—keep shining! 🌙  
+  - Take 3 deep breaths or note one win from today to amplify the positivity. 😊
+- **选择题反馈**:
+  - MC1 (相关性 1-5): 1
+  - MC2 (有用性 1-3): 4
+  - MC3 (信息量): 5
+  - MC4 (长度): 4
+  - MC5: 4
+  - MC6: 4
+- **原子活动**: {'har': ['eat', 'walk', 'sit', 'work'], 'phone_usages': [], 'app_usage': [], 'location': ['University Campus'], 'movement': ['stationary'], 'step_counts': []}
+
+### 记录 5
+- **用户**: hrx
+- **时间**: 2025-11-26 18:19:23
+- **Intervention**: **Physical Health** 💪  
+  - Fantastic bursts of running and stair climbing – you're building strength and heart health beautifully! 🌟 Follow up with a 1-minute stretch to ease any tension and boost posture.  
+  **Mental Health** 🧠  
+  - Light screen time and real-world campus connections are fueling your vibrant energy and low stress! 😊 Jot down one thing you're grateful for to lock in this glow.
+- **选择题反馈**:
+  - MC1 (相关性 1-5): 1
+  - MC2 (有用性 1-3): 4
+  - MC3 (信息量): 5
+  - MC4 (长度): 4
+  - MC5: 4
+  - MC6: 5
+- **原子活动**: {'har': ['Running', 'Sitting', 'Eating'], 'phone_usages': ['Extended Idle Periods', 'Brief High Intensity Bursts', 'Consistent 2-Minute Idle Intervals', 'Sporadic High Intensity Activity', 'Late Afternoon/Early Evening Usage', 'Intermittent Engagement', 'Low Overall Activity'], 'app_usage': ['Video and Music App'], 'location': ['university campus'], 'movement': ['prolonged stationary period', 'short stationary intervals', 'consistent stationary state'], 'step_counts': ['Mostly Stationary']}
+
+### 记录 6
+- **用户**: Meliodas
+- **时间**: 2025-11-26 17:38:29
+- **Intervention**: **Physical Health** 💪  
+  - Your walking, running bursts, and stairs are fantastic for energy—keep that momentum going! 🏃‍♂️  
+  - Counter screen time with a quick posture stretch: shoulders back, neck rolls for 30 seconds. 😌  
+  **Mental Health** 🧠  
+  - Loving your focused productivity and light WeChat chats—perfect balance for staying connected without overload! 👏  
+  - Pause for a 1-minute deep breath to sustain that energized vibe. 🌟
+- **选择题反馈**:
+  - MC1 (相关性 1-5): 1
+  - MC2 (有用性 1-3): 4
+  - MC3 (信息量): 4
+  - MC4 (长度): 4
+  - MC5: 4
+  - MC6: 3
+- **原子活动**: {'har': ['Walking', 'Climbing Stairs', 'Sitting'], 'phone_usages': ['Intermittent High Intensity Use', 'Extended Idle Periods', 'Brief High Intensity Bursts', 'Frequent Short Idle Spans', 'Sustained High Intensity Activity', 'Alternating Idle and High Intensity', 'Sporadic Engagement'], 'app_usage': ['Daily Life', 'Social', 'Tools', 'Productivity'], 'location': ['University Campus', 'University Campus', 'University Campus', 'University Campus', 'University Campus', 'University Campus', 'University Campus'], 'movement': ['prolonged stationary period', 'short stationary interruptions', 'consistent stationary state'], 'step_counts': ['Mostly Stationary', 'Brief Low Intensity', 'Short Medium Intensity Bursts']}
