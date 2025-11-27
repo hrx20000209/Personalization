@@ -230,4 +230,51 @@ def main():
     print(f"Using {num_shots} shots for LoRe training")
 
     # 4.5 create LoRe model and train; measure training time
-    lore_model = LoReSingleUser(fea_
+    lore_model = LoReSingleUser(feature_dim=feature_dim, rank=8, learn_V=False, device=device)
+
+    train_steps = 300
+    lr = 0.02
+
+    print("Start LoRe few-shot training...")
+    t_train_start = time.perf_counter()
+    train_single_user(lore_model, X_train, y_train, lr=lr, steps=train_steps)
+    t_train_end = time.perf_counter()
+    train_time = t_train_end - t_train_start
+    print(f"LoRe training time (steps={train_steps}, shots={num_shots}): {train_time:.3f} s")
+
+    # 4.6 measure inference latency (scoring new interventions)
+    lore_model.eval()
+
+    test_text = "Try a 1-minute stretch and 3 deep breaths to relax your shoulders after screen time."
+    # embedding latency
+    t_e0 = time.perf_counter()
+    test_emb = encoder.encode(test_text, convert_to_tensor=True)
+    t_e1 = time.perf_counter()
+
+    # LoRe forward latency (single sample)
+    test_emb = test_emb.unsqueeze(0)   # [1, d]
+    with torch.no_grad():
+        t_r0 = time.perf_counter()
+        score = lore_model(test_emb)
+        t_r1 = time.perf_counter()
+
+    print(f"Test intervention text: {test_text}")
+    print(f"Predicted reward: {float(score.item()):.4f}")
+    print(f"Embedding latency (one sample): {(t_e1 - t_e0) * 1000:.2f} ms")
+    print(f"LoRe reward forward latency (one sample): {(t_r1 - t_r0) * 1000:.4f} ms")
+
+    # 4.7 optional: run multiple times to get stable forward latency
+    num_repeats = 50
+    forward_times = []
+    with torch.no_grad():
+        for _ in range(num_repeats):
+            t0 = time.perf_counter()
+            _ = lore_model(test_emb)
+            t1 = time.perf_counter()
+            forward_times.append(t1 - t0)
+    avg_forward = sum(forward_times) / len(forward_times)
+    print(f"Average LoRe forward latency over {num_repeats} runs: {avg_forward * 1000:.4f} ms")
+
+
+if __name__ == "__main__":
+    main()
